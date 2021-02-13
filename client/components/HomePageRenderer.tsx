@@ -1,7 +1,9 @@
 import * as React from 'react';
 
 
-const HomePageRenderer = () => {
+type AppProps = { message: string }
+
+const HomePageRenderer = ({ message }: AppProps) => {
   let myHeading: string = 'My Website Heading';
   async function test() {
     const result: Response = await fetch('google.com');
@@ -10,7 +12,7 @@ const HomePageRenderer = () => {
 
   React.useEffect(() => {
     test();
-  }, []);
+  });
   return (
     <div>
       <h1> Header </h1>

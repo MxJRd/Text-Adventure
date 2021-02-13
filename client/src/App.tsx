@@ -15,7 +15,7 @@ const App = () => {
       <div id="app">
         <h1>App is Running</h1>
         <Test />
-        <HomePageRenderer />
+        <HomePageRenderer message={'hi'} />
       </div>
     </div>
   )
