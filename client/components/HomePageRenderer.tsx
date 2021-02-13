@@ -1,18 +1,21 @@
 import * as React from 'react';
 
-// const HomePageRenderer = () => {
-//   const myHeading: string = 'My Website Heading';
-//   return (
-//     <div>
-//       <h1> {myHeading} </h1>
-//     </div>
-//   )
-// };
-// // const OtherHeading: React.FC = () => {
-// //   return (
 
-// //   )
+const HomePageRenderer = () => {
+  let myHeading: string = 'My Website Heading';
+  async function test() {
+    const result: Response = await fetch('google.com');
+    console.log(result);
+  }
 
-// // }
+  React.useEffect(() => {
+    test();
+  }, []);
+  return (
+    <div>
+      <h1> Header </h1>
+    </div>
+  )
+};
 
-// export default HomePageRenderer;
+export default HomePageRenderer;

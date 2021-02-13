@@ -11,13 +11,8 @@ module.exports = {
     rules: [
       {
         test: /\.tsx?$/,
-        use: 'ts-loader',
+        use: ['ts-loader'],
         exclude: /node_modules/,
-      },
-      {
-        test: /\.(js|jsx)?/,
-        exclude: /node_modules/,
-        loader: 'babel-loader'
       },
       {
         test: /\.s?css/,
@@ -29,7 +24,7 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 9000,
+    port: 8080,
     hot: true
   },
   resolve: {
