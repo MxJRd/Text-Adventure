@@ -713,28 +713,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./client/src/App.jsx":
-/*!****************************!*\
-  !*** ./client/src/App.jsx ***!
-  \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core/CssBaseline */ \"./node_modules/@material-ui/core/esm/CssBaseline/CssBaseline.js\");\n\n\n\nvar App = function App() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_1__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    id: \"app\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h1\", null, \"App is Running\")));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);\n\n//# sourceURL=webpack://cs_scratch_project/./client/src/App.jsx?");
-
-/***/ }),
-
-/***/ "./client/src/index.jsx":
-/*!******************************!*\
-  !*** ./client/src/index.jsx ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _stylesheets_styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../stylesheets/styles.css */ \"./client/stylesheets/styles.css\");\n/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ \"./client/src/App.jsx\");\n\n\n\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_App__WEBPACK_IMPORTED_MODULE_3__.default, null), document.getElementById('root'));\n\n//# sourceURL=webpack://cs_scratch_project/./client/src/index.jsx?");
-
-/***/ }),
-
 /***/ "./client/stylesheets/styles.css":
 /*!***************************************!*\
   !*** ./client/stylesheets/styles.css ***!
@@ -4494,6 +4472,28 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nvar isProduction = \"development\" === 'production';\nfunction warning(condition, message) {\n  if (!isProduction) {\n    if (condition) {\n      return;\n    }\n\n    var text = \"Warning: \" + message;\n\n    if (typeof console !== 'undefined') {\n      console.warn(text);\n    }\n\n    try {\n      throw Error(text);\n    } catch (x) {}\n  }\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (warning);\n\n\n//# sourceURL=webpack://cs_scratch_project/./node_modules/tiny-warning/dist/tiny-warning.esm.js?");
 
+/***/ }),
+
+/***/ "./client/src/App.tsx":
+/*!****************************!*\
+  !*** ./client/src/App.tsx ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core/CssBaseline */ \"./node_modules/@material-ui/core/esm/CssBaseline/CssBaseline.js\");\n // import HomePageRenderer from '../components/HomePageRenderer'\n\nvar App = function App() {\n    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_1__.default, null), /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n        id: \"app\"\n    }, /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h1\", null, \"App is Running\")));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);\n\n\n//# sourceURL=webpack://cs_scratch_project/./client/src/App.tsx?");
+
+/***/ }),
+
+/***/ "./client/src/index.tsx":
+/*!******************************!*\
+  !*** ./client/src/index.tsx ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _stylesheets_styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../stylesheets/styles.css */ \"./client/stylesheets/styles.css\");\n/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ \"./client/src/App.tsx\");\n\n\n\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render(/*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0__.createElement(_App__WEBPACK_IMPORTED_MODULE_3__.default, null), document.getElementById('root'));\n\n\n//# sourceURL=webpack://cs_scratch_project/./client/src/index.tsx?");
+
 /***/ })
 
 /******/ 	});
@@ -4578,7 +4578,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// startup
 /******/ 	// Load entry module
 /******/ 	__webpack_require__("./node_modules/babel-polyfill/lib/index.js");
-/******/ 	__webpack_require__("./client/src/index.jsx");
+/******/ 	__webpack_require__("./client/src/index.tsx");
 /******/ 	// This entry module used 'exports' so it can't be inlined
 /******/ })()
 ;
