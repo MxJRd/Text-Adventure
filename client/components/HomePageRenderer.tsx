@@ -1,6 +1,5 @@
 import * as React from 'react';
 
-
 type AppProps = { message: string }
 
 const HomePageRenderer = ({ message }: AppProps) => {
@@ -9,13 +8,12 @@ const HomePageRenderer = ({ message }: AppProps) => {
     const result: Response = await fetch('google.com');
     console.log(result);
   }
-
   React.useEffect(() => {
     test();
   });
   return (
     <div>
-      <h1> Header </h1>
+      <h1> {myHeading} </h1>
     </div>
   )
 };
